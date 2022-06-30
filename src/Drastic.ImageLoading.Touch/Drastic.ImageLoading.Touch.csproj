@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\Drastic.ImageLoading.Shared.IosMac\Drastic.ImageLoading.Shared.IosMac.projitems" Label="Shared" />
+
+  <Import Project="..\Drastic.ImageLoading.Shared\Drastic.ImageLoading.Shared.projitems" Label="Shared" />
+
+</Project>

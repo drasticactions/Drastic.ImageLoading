@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+<ItemGroup>
+		<Compile Include="..\Drastic.ImageLoading.Transformations\CornerTransformType.cs" Link="CornerTransformType.cs" />
+		<Compile Include="..\Drastic.ImageLoading.Transformations\FlipType.cs" Link="FlipType.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.ImageLoading.Touch\Drastic.ImageLoading.Touch.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+	</ItemGroup>
+</Project>

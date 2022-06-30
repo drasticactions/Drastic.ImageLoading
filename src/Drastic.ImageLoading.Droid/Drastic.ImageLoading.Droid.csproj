@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-android</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+	</ItemGroup>
+
+	<Import Project="..\Drastic.ImageLoading.Shared\Drastic.ImageLoading.Shared.projitems" Label="Shared" />
+
+</Project>

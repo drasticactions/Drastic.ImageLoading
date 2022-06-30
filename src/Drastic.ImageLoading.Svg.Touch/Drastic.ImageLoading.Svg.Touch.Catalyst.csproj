@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-maccatalyst</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.88.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Drastic.ImageLoading.Touch\Drastic.ImageLoading.Touch.Catalyst.csproj" />
+    <ProjectReference Include="..\Drastic.ImageLoading.Svg\Drastic.ImageLoading.Svg.csproj" />
+    <ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\Drastic.ImageLoading.Svg.Shared\Drastic.ImageLoading.Svg.Shared.projitems" Label="Shared" />
+</Project>

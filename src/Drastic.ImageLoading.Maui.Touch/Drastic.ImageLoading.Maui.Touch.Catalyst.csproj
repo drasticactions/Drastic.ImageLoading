@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-maccatalyst</TargetFramework>
+		<UseMaui>true</UseMaui>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.ImageLoading.Maui\Drastic.ImageLoading.Maui.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading.Touch\Drastic.ImageLoading.Touch.Catalyst.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+	</ItemGroup>
+
+</Project>

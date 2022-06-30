@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+		<UseWinUI>true</UseWinUI>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.ImageLoading.Windows\Drastic.ImageLoading.Windows.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+	</ItemGroup>
+
+</Project>

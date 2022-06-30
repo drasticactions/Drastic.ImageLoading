@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UseMaui>true</UseMaui>
+    <UseMauiEssentials>true</UseMauiEssentials>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+    <ProjectReference Include="..\Drastic.ImageLoading.Maui.Mock\Drastic.ImageLoading.Maui.Mock.csproj" />
+    <ProjectReference Include="..\Drastic.ImageLoading.Mock\Drastic.ImageLoading.Mock.csproj" PrivateAssets="All" />
+  </ItemGroup>
+</Project>

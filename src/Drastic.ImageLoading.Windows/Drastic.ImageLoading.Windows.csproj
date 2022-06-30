@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+		<UseWinUI>true</UseWinUI>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Include="..\Drastic.ImageLoading.Transformations\CornerTransformType.cs" Link="CornerTransformType.cs" />
+		<Compile Include="..\Drastic.ImageLoading.Transformations\FlipType.cs" Link="FlipType.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+	</ItemGroup>
+</Project>
