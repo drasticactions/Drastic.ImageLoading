@@ -18,6 +18,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj">
+		  <ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
 	</ItemGroup>
 </Project>

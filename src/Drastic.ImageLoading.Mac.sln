@@ -9,15 +9,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Drastic.ImageLoading.Shared
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Droid", "Drastic.ImageLoading.Droid\Drastic.ImageLoading.Droid.csproj", "{71E72AA7-7070-4702-9830-2C4199D7485F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Windows", "Drastic.ImageLoading.Windows\Drastic.ImageLoading.Windows.csproj", "{73762ABB-0D52-4D5D-8F8F-B59ED55B27E3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Transformations", "Drastic.ImageLoading.Transformations\Drastic.ImageLoading.Transformations.csproj", "{E2917CFE-28F7-48B0-9215-FA4353776718}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Mock", "Drastic.ImageLoading.Mock\Drastic.ImageLoading.Mock.csproj", "{DC5C4A42-0493-40D3-9A4E-A1ADF2D92EE1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Transformations.Droid", "Drastic.ImageLoading.Transformations.Droid\Drastic.ImageLoading.Transformations.Droid.csproj", "{BD08FB6E-58BE-4536-8FBE-E749969AF56C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Transformations.Windows", "Drastic.ImageLoading.Transformations.Windows\Drastic.ImageLoading.Transformations.Windows.csproj", "{D91D98FB-E760-4102-974D-29B314D61C4E}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Drastic.ImageLoading.Shared.IosMac", "Drastic.ImageLoading.Shared.IosMac\Drastic.ImageLoading.Shared.IosMac.shproj", "{26F4DB3B-EC7F-46DE-8D51-2CB4BA187A16}"
 EndProject
@@ -41,8 +37,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.To
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.Mac", "Drastic.ImageLoading.Svg.Mac\Drastic.ImageLoading.Svg.Mac.csproj", "{15190494-B756-4280-8EE2-E99E2C1E1309}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.Windows", "Drastic.ImageLoading.Svg.Windows\Drastic.ImageLoading.Svg.Windows.csproj", "{8C6F90F7-BF5F-45D6-9BB2-B7A73F2F4EBC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Transformations.Touch", "Drastic.ImageLoading.Transformations.Touch\Drastic.ImageLoading.Transformations.Touch.csproj", "{38E16FCC-6BCD-4BB2-A686-8E94DB4B7068}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Transformations.Touch.Catalyst", "Drastic.ImageLoading.Transformations.Touch.Catalyst\Drastic.ImageLoading.Transformations.Touch.Catalyst.csproj", "{5D0583F7-130B-4BDC-B3A6-6862BB591D48}"
@@ -59,8 +53,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Maui.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Maui.Touch.Catalyst", "Drastic.ImageLoading.Maui.Touch.Catalyst\Drastic.ImageLoading.Maui.Touch.Catalyst.csproj", "{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Maui.WinUI", "Drastic.ImageLoading.Maui.WinUI\Drastic.ImageLoading.Maui.WinUI.csproj", "{3EE92231-A55C-4694-AA43-314375C0FAF0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,10 +67,6 @@ Global
 		{71E72AA7-7070-4702-9830-2C4199D7485F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E72AA7-7070-4702-9830-2C4199D7485F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71E72AA7-7070-4702-9830-2C4199D7485F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73762ABB-0D52-4D5D-8F8F-B59ED55B27E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73762ABB-0D52-4D5D-8F8F-B59ED55B27E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73762ABB-0D52-4D5D-8F8F-B59ED55B27E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73762ABB-0D52-4D5D-8F8F-B59ED55B27E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E2917CFE-28F7-48B0-9215-FA4353776718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2917CFE-28F7-48B0-9215-FA4353776718}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2917CFE-28F7-48B0-9215-FA4353776718}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -91,10 +79,6 @@ Global
 		{BD08FB6E-58BE-4536-8FBE-E749969AF56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD08FB6E-58BE-4536-8FBE-E749969AF56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD08FB6E-58BE-4536-8FBE-E749969AF56C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D91D98FB-E760-4102-974D-29B314D61C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D91D98FB-E760-4102-974D-29B314D61C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D91D98FB-E760-4102-974D-29B314D61C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D91D98FB-E760-4102-974D-29B314D61C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AAB098DA-C7B6-4359-97F0-1A380FCF6CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AAB098DA-C7B6-4359-97F0-1A380FCF6CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAB098DA-C7B6-4359-97F0-1A380FCF6CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -127,10 +111,6 @@ Global
 		{15190494-B756-4280-8EE2-E99E2C1E1309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15190494-B756-4280-8EE2-E99E2C1E1309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15190494-B756-4280-8EE2-E99E2C1E1309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C6F90F7-BF5F-45D6-9BB2-B7A73F2F4EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C6F90F7-BF5F-45D6-9BB2-B7A73F2F4EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C6F90F7-BF5F-45D6-9BB2-B7A73F2F4EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C6F90F7-BF5F-45D6-9BB2-B7A73F2F4EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38E16FCC-6BCD-4BB2-A686-8E94DB4B7068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{38E16FCC-6BCD-4BB2-A686-8E94DB4B7068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38E16FCC-6BCD-4BB2-A686-8E94DB4B7068}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -163,10 +143,6 @@ Global
 		{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EE92231-A55C-4694-AA43-314375C0FAF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EE92231-A55C-4694-AA43-314375C0FAF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EE92231-A55C-4694-AA43-314375C0FAF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EE92231-A55C-4694-AA43-314375C0FAF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

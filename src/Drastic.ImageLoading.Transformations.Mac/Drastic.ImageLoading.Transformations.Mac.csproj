@@ -6,6 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <UseSGen>false</UseSGen>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EnableCodeSigning>false</EnableCodeSigning>
+    <UseSGen>false</UseSGen>
+  </PropertyGroup>
 <ItemGroup>
 		<Compile Include="..\Drastic.ImageLoading.Transformations\CornerTransformType.cs" Link="CornerTransformType.cs" />
 		<Compile Include="..\Drastic.ImageLoading.Transformations\FlipType.cs" Link="FlipType.cs" />

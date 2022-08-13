@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Drastic.ImageLoading.Touch\Drastic.ImageLoading.Touch.Catalyst.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading.Touch.Catalyst\Drastic.ImageLoading.Touch.Catalyst.csproj" />
 		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
 	</ItemGroup>
 </Project>

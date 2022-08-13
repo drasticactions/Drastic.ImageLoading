@@ -8,8 +8,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Drastic.ImageLoading.Windows\Drastic.ImageLoading.Windows.csproj" />
-		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj" />
+		<ProjectReference Include="..\Drastic.ImageLoading.Windows\Drastic.ImageLoading.Windows.csproj">
+		  <ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
+		<ProjectReference Include="..\Drastic.ImageLoading\Drastic.ImageLoading.csproj">
+		  <ReferenceSourceTarget></ReferenceSourceTarget>
+		</ProjectReference>
 	</ItemGroup>
 
 </Project>
