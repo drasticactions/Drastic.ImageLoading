@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.Dr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.Touch", "Drastic.ImageLoading.Svg.Touch\Drastic.ImageLoading.Svg.Touch.csproj", "{D00E8916-D8F6-4989-8102-EEA78AE25399}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.Touch.Catalyst", "Drastic.ImageLoading.Svg.Touch.Catalyst\Drastic.ImageLoading.Svg.Touch.Catalyst.csproj", "{A2CEBF23-D459-42D3-B53E-023FBF0B52A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.ImageLoading.Svg.Touch.Catalyst", "Drastic.ImageLoading.Svg.Touch.Catalyst\Drastic.ImageLoading.Svg.Touch.Catalyst.csproj", "{A2CEBF23-D459-42D3-B53E-023FBF0B52A3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Svg.Mac", "Drastic.ImageLoading.Svg.Mac\Drastic.ImageLoading.Svg.Mac.csproj", "{15190494-B756-4280-8EE2-E99E2C1E1309}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Maui.Touch", "Drastic.ImageLoading.Maui.Touch\Drastic.ImageLoading.Maui.Touch.csproj", "{94854AF6-EB89-4FFD-9CB6-0096558075A7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drastic.ImageLoading.Maui.Touch.Catalyst", "Drastic.ImageLoading.Maui.Touch.Catalyst\Drastic.ImageLoading.Maui.Touch.Catalyst.csproj", "{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.ImageLoading.Tests", "..\tests\Drastic.ImageLoading.Tests\Drastic.ImageLoading.Tests.csproj", "{CF420AFB-F8BE-4CBC-BD82-FA346789AFE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,10 @@ Global
 		{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50C1F919-3584-48ED-BF9B-EE3FF48C2D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF420AFB-F8BE-4CBC-BD82-FA346789AFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF420AFB-F8BE-4CBC-BD82-FA346789AFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF420AFB-F8BE-4CBC-BD82-FA346789AFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF420AFB-F8BE-4CBC-BD82-FA346789AFE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
